@@ -1,8 +1,5 @@
-import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { TbBrandNextjs } from 'react-icons/tb'
 import { SiMongodb } from 'react-icons/si'
-import { DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { motion } from 'framer-motion'
@@ -44,23 +41,9 @@ const Technologies = () => {
             <motion.div
                 initial='initial'
                 animate='animate'
-                variants={iconVariants(3)}
-                className='p-4'>
-                <TbBrandNextjs className='text-7xl' />
-            </motion.div>
-            <motion.div
-                initial='initial'
-                animate='animate'
                 variants={iconVariants(5)}
                 className='p-4'>
                 <SiMongodb className='text-7xl text-cyan-500' />
-            </motion.div>
-            <motion.div 
-                initial='initial'
-                animate='animate'
-                variants={iconVariants(2)}
-                className='p-4'>
-                <DiRedis className='text-7xl text-red-700' />
             </motion.div>
             <motion.div 
                 initial='initial'

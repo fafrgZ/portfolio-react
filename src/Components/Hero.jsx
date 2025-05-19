@@ -1,5 +1,4 @@
-import React from 'react'
-import profilePic from '../assets/raviKumarProfile.webp'
+import profilePic from '../assets/profile-pic.png'
 import { HERO_CONTENT } from '../constants'
 import { motion } from 'framer-motion'
 
@@ -47,12 +46,12 @@ const Hero = () => {
                     <motion.h2
                         variants={childVariants} 
                         className='pb-2 text-4xl tracking-tighter lg:text-8xl'> 
-                        Ravi Kumar 
+                        Farid Fragozo 
                     </motion.h2> 
                     <motion.span 
                         variants={childVariants}
                         className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text tracking-tight text-transparent'> 
-                        Full Stack Developer 
+                        Frontend Developer 
                     </motion.span>
                     <motion.p
                         variants={childVariants}
